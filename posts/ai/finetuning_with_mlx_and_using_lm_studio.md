@@ -1,5 +1,3 @@
-[toc]
-
 
 
 # 本地微调: 使用MLX在MacOS上进行微调
@@ -18,7 +16,7 @@ The main differences between MLX and NumPy are:
 > - **Lazy computation**: Computations in MLX are lazy. Arrays are only materialized when needed.
 > - **Multi-device**: Operations can run on any of the supported devices (CPU, GPU, …)
 
-The design of MLX is inspired by frameworks like [PyTorch](https://pytorch.org/), [Jax](https://github.com/google/jax), and [ArrayFire](https://arrayfire.org/). ==**A notable difference from these frameworks and MLX is the unified memory model. Arrays in MLX live in shared memory. Operations on MLX arrays can be performed on any of the supported device types without performing data copies.**== Currently supported device types are the CPU and GPU.
+The design of MLX is inspired by frameworks like [PyTorch](https://pytorch.org/), [Jax](https://github.com/google/jax), and [ArrayFire](https://arrayfire.org/). **A notable difference from these frameworks and MLX is the unified memory model. Arrays in MLX live in shared memory. Operations on MLX arrays can be performed on any of the supported device types without performing data copies.** Currently supported device types are the CPU and GPU.
 
 
 
