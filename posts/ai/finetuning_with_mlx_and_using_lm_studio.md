@@ -1,3 +1,14 @@
+- [本地微调: 使用MLX在MacOS上进行微调](#本地微调-使用mlx在macos上进行微调)
+  - [MLX Intro](#mlx-intro)
+  - [Finetuning](#finetuning)
+    - [step 1、set up env 环境准备](#step-1set-up-env-环境准备)
+    - [step 2、download model 模型下载模型](#step-2download-model-模型下载模型)
+    - [step 3、data preparation 数据准备](#step-3data-preparation-数据准备)
+    - [step 4、training 训练](#step-4training-训练)
+    - [step 5、fuse \& evaluation 模型合并和评估](#step-5fuse--evaluation-模型合并和评估)
+  - [LM Studio加载模型](#lm-studio加载模型)
+  - [Reference](#reference)
+
 
 
 # 本地微调: 使用MLX在MacOS上进行微调
