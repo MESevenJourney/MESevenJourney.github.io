@@ -226,7 +226,7 @@ Peak memory: 8.405 GB
 #### 非MLX的GGUF版本Llama-3.2-3B-Instruct-Q4_K_M.gguf
 
 [llama. cpp安装](https://github.com/ggerganov/llama.cpp/blob/master/docs/install.md)
-
+[prompt文件portugal.txt](https://pastebin.com/raw/U4fjjTuv)
 
 
 - q4_K_M on Llama.cpp with flash attention
