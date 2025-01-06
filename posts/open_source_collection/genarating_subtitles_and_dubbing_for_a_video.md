@@ -3,6 +3,9 @@
   - [它的特点和功能(官网描述)](#它的特点和功能官网描述)
   - [个人观点](#个人观点)
   - [如何配置本地运行](#如何配置本地运行)
+  - [如何配置GPT-SoVITS(最强语音克隆)](#如何配置gpt-sovits最强语音克隆)
+  - [参考链接](#参考链接)
+
 
 # **Videolingo: 开源免费的视频字幕提取和配音软件**
 
@@ -93,3 +96,48 @@ max_workers: 1
 <img src="vl_qwen_model.jpg" alt="vl_qwen_model" style="zoom:15%;" />
 
 <img src="vl_qwen_model_2.jpg" alt="vl_qwen_model_2" style="zoom:15%;" />
+
+
+页面配置：
+
+`LLM Configuration`
+
+BASE_URL: http://localhost:1234
+
+MODEL: qwen2.5-coder:32b
+
+API_KEY: 本地模型随意，如使用openAI，填写具体的key
+
+
+
+`Subtitles`
+
+简体中文(源) => English(目标) 
+
+
+
+`Dubbing`
+
+edge_tts
+
+
+
+- 步骤：必需先提取字幕`Translate and Generate Subtitles`，再进行配音`Dubbing`，两者有依赖关系。
+
+
+
+##  如何配置GPT-SoVITS(最强语音克隆)
+
+[点击这里](https://docs.videolingo.io/docs/start#2-tts-%E7%9A%84-api)
+
+
+
+
+
+## 参考链接
+
+[VideoLingo项目地址](https://github.com/Huanshere/VideoLingo)
+
+[开源配音软件-GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+
+[GPT-SoVITS-V2升级指南](https://www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e/xzax40hqc8geg4sk?singleDoc#)
