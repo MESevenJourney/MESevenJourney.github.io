@@ -33,7 +33,7 @@ VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Ne
 
 - 懒得折腾的话，可直接使用付费SaaS套餐，省时间，费用也很低，还有免费翻译 15 分钟视频
 
-  <img src="/Users/ericzhou/Documents/typora/自媒体/videolingo_pricing.jpg" alt="videolingo_pricing" style="zoom:22%;" />
+  <img src="videolingo_pricing.jpg" alt="videolingo_pricing" style="zoom:22%;" />
 
 - 上手快，操作简单[VideoLingo操作文档](https://docs.videolingo.io/docs/start)
 
@@ -70,7 +70,7 @@ streamlit run st.py
 
 之后会默认打开一个页面：http://localhost:8501/ or http://localhost:8502/
 
-<img src="/Users/ericzhou/Documents/typora/自媒体/vl_webui.jpg" alt="vl_webui" style="zoom:15%;" />
+<img src="vl_webui.jpg" alt="vl_webui" style="zoom:15%;" />
 
 
 
@@ -90,6 +90,6 @@ max_workers: 1
 
 [下载安装LM studio请参考这里](https://mesevenjourney.github.io/posts/ai/finetuning_with_mlx_and_using_lm_studio#lm-studio%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B)
 
-<img src="/Users/ericzhou/Documents/typora/自媒体/vl_qwen_model.jpg" alt="vl_qwen_model" style="zoom:15%;" />
+<img src="vl_qwen_model.jpg" alt="vl_qwen_model" style="zoom:15%;" />
 
-<img src="/Users/ericzhou/Documents/typora/自媒体/vl_qwen_model_2.jpg" alt="vl_qwen_model_2" style="zoom:15%;" />
+<img src="vl_qwen_model_2.jpg" alt="vl_qwen_model_2" style="zoom:15%;" />
